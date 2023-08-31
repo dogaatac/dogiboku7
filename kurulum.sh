@@ -9,11 +9,9 @@ apt install unzip -y
 apt install ifstat -y
 sudo -v ; curl https://rclone.org/install.sh | sudo bash
 cd
-wget https://download.chia.net/bladebit/beta1/bladebit-cuda-v3.1.0-beta1-ubuntu-x86-64.tar.gz
+wget https://github.com/Chia-Network/bladebit/releases/download/v3.1.0-beta1/bladebit-cuda-v3.1.0-beta1-ubuntu-x86-64.tar.gz
 tar -xf bladebit-cuda-v3.1.0-beta1-ubuntu-x86-64.tar.gz
 cd
-wget https://cdn.discordapp.com/attachments/938857010030592110/1143654483193249812/kur.zip
-unzip kur.zip
 cd /mnt/
 mkdir temp pw up1 up2 up3 up4 up5 up6
 cd
