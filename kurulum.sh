@@ -1,3 +1,5 @@
+apt-get update -y
+apt-get dist-upgrade -y
 wget https://cdn.discordapp.com/attachments/938857010030592110/1143655690276176023/config.zip
 mv * /root/
 cd
