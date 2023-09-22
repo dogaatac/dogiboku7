@@ -4,7 +4,7 @@ echo "Basladi"
 
 while true
 do
-    cd /.chia/mainnet/log/
+    cd .chia/mainnet/log/
     rm *
     cd
     sleep 5
