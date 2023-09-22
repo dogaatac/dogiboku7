@@ -6,7 +6,7 @@ do
     rm *
     cd
     sleep 5
-    screen -S found -X quit
+    screen -XS found quit
     screen -dmS found python3 found.py
     sleep 15000
 done
